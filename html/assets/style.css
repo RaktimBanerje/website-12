@@ -57,6 +57,28 @@ a {
     color: #8E0E0E;
 }
 
+@media (max-width:480px) {
+    .title {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    
+    .title-1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        color: #3BA5FD;
+        font-size: 1.75rem;
+    }
+    
+    .title-2 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        color: #8E0E0E;
+        font-size: 1.75rem;
+    }
+}
+
 .mr-button {
     border: 0;
     padding: 13px 45px;
@@ -120,7 +142,7 @@ a {
 
 /* Top Bar */
 .top {
-    background-color: #0068B2;
+    background-color: transparent;
 }
 
 .top i {
@@ -131,6 +153,10 @@ a {
 
 /* Header CSS */
 .header {
+    background: transparent;
+}
+
+.header .nav-bar {
     background-color: white;
 }
 
@@ -177,15 +203,15 @@ a {
 
 /* Banner CSS */
 .banner {
-    padding-top: 80px;
+    padding-top: 180px;
     padding-bottom: 50px;
     background-image: url('images/banner.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 750px;
+    height: 850px;
     position: relative;
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 
 .banner .card-form {
@@ -226,6 +252,12 @@ a {
     background-color: #D9D9D9;
 }
 
+@media (max-width:480px) {
+    .director {
+        background-color: white;
+    }
+}
+
 .director p {
     text-align: justify;
 }
@@ -237,7 +269,7 @@ a {
 }
 
 .course .single-course p {
-    font-size: 14px;
+    font-size: 12px;
     text-align: left;
 }
 
@@ -335,12 +367,13 @@ footer {
 footer a {
     color: #898686 !important;
     transition: 0.2s;
-    font-weight: bold;
+    cursor: pointer;
 }
 
 footer a:hover {
     color: #00AFD7 !important;
     transition: 0.2s;
+    cursor: pointer;
 }
 
 .contact-icon {
