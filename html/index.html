@@ -35,8 +35,8 @@
 <body>
     <!-- Header -->
     <section>
-        <div class="container-fluid pb-2 px-0 header fixed-top">
-            <div class="top mb-2 d-none d-md-block">
+        <div class="container-fluid px-0 header fixed-top">
+            <div class="top d-none d-md-block">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-9 d-flex justify-content-start">
@@ -81,9 +81,9 @@
                     </div>
                 </div>
             </div>
-            <div class="container">
+            <div class="container-fluid px-0">
                 <div class="d-flex justify-content-between align-items-center">
-                    <img class="img-fluid logo d-none d-md-block" src="assets/images/logo.png">
+                    <img class="img-fluid logo d-none d-md-block ms-5" src="assets/images/logo.png">
                     <img class="img-fluid logo d-block d-md-none" src="assets/images/logo-1.png">
                     <ul class="nav d-none d-md-flex">
                         <li class="nav-item">
@@ -124,7 +124,8 @@
                         <li class="nav-item">
                             <a href="#" class="button ms-4">
                                 <button class="btn mr-button button-2" data-toggle="modal"
-                                    data-target="#myModal">Admissiom Now</button>
+                                    data-target="#myModal" style="padding: 50px 90px; border-radius: 15px 0px 0px 15px; font-size: 18px;">GET FREE QUOTE</button>
+                               
                             </a>
                         </li>
                     </ul>
@@ -144,19 +145,18 @@
                 <div class="row h-100 d-flex">
                     <div class="col-md-6 d-flex justify-content-center align-items-center">
                         <div class="content">
-                            <h1 class="title text-white d-none d-md-block">Grow yourself <br> with us for better Future
+                            <h1 class="title text-white d-none d-md-block" style="font-size: 4rem;">Grow yourself <br> with us for better Future
                             </h1>
                             <h1 class="title text-white d-block d-md-none">Grow yourself <br> with us for better <br>
                                 Future</h1>
-                            <p class="text-white">Lorem Ipsum is simply dummy text of the printing & typesetting
+                            <p class="text-white" style="font-size: 22px;">Lorem Ipsum is simply dummy text of the printing & typesetting
                                 industry. Lorem Ipsum has been the industry's standard.</p>
   
   
-  
-                            <button class="btn mr-button button-1 text-uppercase mb-3 mx-1 mb-md-0">Call us</button>
-  
-                            <button class="btn mr-button button-2 text-uppercase mr-button mb-3 mx-1 mb-md-0"
-                                data-toggle="modal" data-target="#myModal">Enquiry Now</button>
+                                <button class="btn mr-button button-1 text-uppercase mb-3 mx-1 mb-md-0">Call us</button>
+    
+                                <button class="btn mr-button button-2 text-uppercase mr-button mb-3 mx-1 mb-md-0"
+                                    data-toggle="modal" data-target="#myModal">Enquiry Now</button>
                         </div>
                     </div>
                     <div class="col-md-6 d-flex justify-content-center align-items-center">
@@ -169,10 +169,10 @@
                     <div class="container-fluid notice">
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-2 title-container d-flex justify-content-center align-items-center">
+                                <div class="col-md-3 title-container d-flex justify-content-center align-items-center">
                                     <h3 class="title text-white text-center">Notice</h3>
                                 </div>
-                                <div class="col-md-10 notice-container">
+                                <div class="col-md-9 notice-container">
                                     <div class="carousel slide" data-ride="carousel">
                                         <div class="carousel-inner">
                                           <div class="carousel-item active">
@@ -210,7 +210,7 @@
         <div class="container-fluid mr-section about">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 d-flex align-items-center">
+                    <div class="col-md-7 d-flex align-items-center">
                         <div>
                             <h3 class="title-2">ABOUT US</h3>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
@@ -230,8 +230,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 d-flex align-items-center">
-                        <div class="card form mt-2">
+                    <div class="col-md-5 d-flex align-items-center">
+                        <div class="card form mt-2 w-100">
                             <div class="card-body">
                                 <form action="handler.php" method="POST">
                                     <div class="form-group mb-1">
@@ -312,7 +312,7 @@
     <!-- Our Courses -->
     <section>
         <div class="container-fluid mr-section course">
-            <h3 class="title-2 text-center mb-5">OUR COURSES</h3>
+            <h3 class="title-2 text-center mb-5 py-5">OUR COURSES</h3>
             <div class="container">
                 <div class="carousel slide" data-ride="carousel"  data-interval="2000">
                     <div class="carousel-inner">
@@ -496,8 +496,11 @@
             <div class="row h-100 justify-content-center align-items-center">
                 <div class="text-center">
                     <h2 class="title text-white text-center">We  are the Most Trusted College. <br> Welcome here for better future.</h2>
-                    <button class="btn mr-button button-1 mx-2">CALL US</button>
-                    <button class="btn mr-button button-2 mx-2">WHATSAPP US</button>
+                    
+                    <div class="py-5">
+                        <button class="btn mr-button button-1 mx-2">CALL US</button>
+                        <button class="btn mr-button button-2 mx-2">WHATSAPP US</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -543,12 +546,12 @@
     <section>
         <div class="container mr-section faq">
             <div class="row justify-content-between">
-                <div class="col-md-5 faq_img d-flex align-items-end d-none d-md-block">
+                <div class="col-md-6 faq_img d-flex align-items-end d-none d-md-block">
                     <img class="img-fluid mr-img-9" src="assets/images/img-11.png">
                 </div>
                 <div class="col-md-6 d-flex align-items-end">
                     <div class="w-100">
-                        <h3 class="title-2 mb-5">Frequently asked questions</h3>
+                        <h3 class="title-2 mb-5">FREQUENTLY ASKED QUESTIONS</h3>
                         <div class="accordion mt-md-5 w-100" id="accordionExample">
                             <div class="accordion-item">
                                 <div class="accordion-header" id="headingOne">
@@ -733,7 +736,7 @@
                     <div class="col-md-4 px-2">
                         <div class="card mb-3">
                             <div class="p-3 text-center">
-                                <h5 class="title-2 text-center">B. Ed Student</h5>
+                                <h5 class="title-4 text-center">B. Ed Student</h5>
                                 <h4 class="text-dark text-center">Harold Johnson</h4>
                                 <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat
                                     lectus cursus </p>
@@ -744,7 +747,7 @@
                     <div class="col-md-4 px-2">
                         <div class="card mb-3">
                             <div class="p-3 text-center">
-                                <h5 class="title-2 text-center">B.Pharm Student</h5>
+                                <h5 class="title-4 text-center">B.Pharm Student</h5>
                                 <h4 class="text-dark text-center">Harold Johnson</h4>
                                 <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat
                                     lectus cursus </p>
@@ -755,7 +758,7 @@
                     <div class="col-md-4 px-2">
                         <div class="card mb-3">
                             <div class="p-3 text-center">
-                                <h5 class="title-2 text-center">BSc. Nursing</h5>
+                                <h5 class="title-4 text-center">BSc. Nursing</h5>
                                 <h4 class="text-dark text-center">Harold Johnson</h4>
                                 <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat
                                     lectus cursus </p>
@@ -776,15 +779,15 @@
                 <div class="row justify-content-between">
                     <div class="col-md-6 d-flex align-items-center">
                         <div>
-                            <h3 class="title-1 my-5">OUR VISION & MISION</h3>
+                            <h3 class="title-3 my-5">OUR VISION & MISION</h3>
                             <div class="shadow mb-3 bg-white px-3 py-4">
-                                <h3 class="title-2">Our Vision</h3>
+                                <h3 class="title-4">Our Vision</h3>
                                 <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                                     unknown printer took a galley of type and scrambled it to make a type specimen book.
                                     Lorem Ipsum has been the industry's standard dummy text ever.</p>
                             </div>
                             <div class="shadow mb-3 bg-white px-3 py-4">
-                                <h3 class="title-2">Our Mission</h3>
+                                <h3 class="title-4">Our Mission</h3>
                                 <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                                     unknown printer took a galley of type and scrambled it to make a type specimen book.
                                     Lorem Ipsum has been the industry's standard dummy text ever.</p>
@@ -802,14 +805,14 @@
     <!-- Blog -->
     <section>
         <div class="container mr-section blog">
-            <h3 class="title-1 text-center">OUR BLOGS</h3>
+            <h3 class="title-1 text-center py-5">OUR BLOGS</h3>
             <div class="row">
                 <div class="col-md-4">
                     <div class="card shadow border-0 mb-3">
                         <div class="card-body">
                             <img class="card-img-top" src="assets/images/bimg-1.png">
                             <span class="blog-time">23<br>Mar</span>
-                            <h6 class="title blog-title my-4">Arndlord packages overcame distance smallest.</h6>
+                            <h6 class="blog-title my-4">Arndlord packages overcame distance smallest.</h6>
                             <p class="blog-description">Lorem Ipsum has been the industry's standard dummy text ever
                                 since the 1500s, when an unknown printer took a galley of type and scrambled it to make
                                 a type specimen book.</p>
@@ -821,7 +824,7 @@
                         <div class="card-body">
                             <img class="card-img-top" src="assets/images/bimg-2.png">
                             <span class="blog-time">23<br>Mar</span>
-                            <h6 class="title blog-title my-4">Arndlord packages overcame distance smallest.</h6>
+                            <h6 class="blog-title my-4">Arndlord packages overcame distance smallest.</h6>
                             <p class="blog-description">Lorem Ipsum has been the industry's standard dummy text ever
                                 since the 1500s, when an unknown printer took a galley of type and scrambled it to make
                                 a type specimen book.</p>
@@ -833,7 +836,7 @@
                         <div class="card-body">
                             <img class="card-img-top" src="assets/images/bimg-3.png">
                             <span class="blog-time">23<br>Mar</span>
-                            <h6 class="title blog-title my-4">Arndlord packages overcame distance smallest.</h6>
+                            <h6 class="blog-title my-4">Arndlord packages overcame distance smallest.</h6>
                             <p class="blog-description">Lorem Ipsum has been the industry's standard dummy text ever
                                 since the 1500s, when an unknown printer took a galley of type and scrambled it to make
                                 a type specimen book.</p>
@@ -894,11 +897,11 @@
         <div class="container-fluid brochure">
             <div class="row">
                 <div class="col-md-8 px-md-5 py-4">
-                    <h5 class="title text-dark">Lorem Ipsum is simply dummy text of the printing
-                        typesetting. simply dummy text of the printing.</h5>
+                    <h3 class="title-4 text-dark px-5">Lorem Ipsum is simply dummy text of the printing
+                        typesetting. simply dummy text of the printing.</h3>
                 </div>
                 <div class="col-md-4 brochure-1 py-3 d-flex justify-content-center align-items-center">
-                    <a href="#" class="title text-white text-center">DOWNLOAD BROCHURE</a>
+                    <a href="#" class="title-4 text-white text-center">DOWNLOAD BROCHURE</a>
                 </div>
             </div>
         </div>
