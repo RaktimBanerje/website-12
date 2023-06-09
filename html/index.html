@@ -17,6 +17,8 @@
         integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css">
 
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <!-- Poppins Font -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,23 +35,23 @@
 
 <body>  
     <!-- Banner -->
-    <section>
+    <section id="home">
         <div class="container-fluid banner">
             <!-- Header -->
             <section>
                 <div class="container-fluid px-0 header fixed-top">
-                    <div class="top d-none d-md-block">
+                    <div class="top">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-9 d-flex justify-content-start">
                                     <ul class="nav">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">
-                                                <p class="text-white"><i class="fa fa-envelope" aria-hidden="true"></i>info.motherteresa@gmail.com</p>
+                                            <a href="mailto:mrgroupadmission@gmail.com" class="nav-link" href="#">
+                                                <p class="text-white"><i class="fa fa-envelope" aria-hidden="true"></i>mrgroupadmission@gmail.com</p>
                                             </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">
+                                            <a href="tel:+919051044044" class="nav-link" href="#">
                                                 <p class="text-white"><i class="fa fa-phone" aria-hidden="true"></i> +91 123 456 789 0</p>
                                             </a>
                                         </li>
@@ -86,54 +88,54 @@
                     <div class="nav-bar container-fluid px-0">
                         <div class="d-flex justify-content-between align-items-center">
                             <img class="img-fluid logo d-none d-md-block ms-5" src="assets/images/logo.png">
-                            <img class="img-fluid logo d-block d-md-none" src="assets/images/logo-1.png">
+                            <img class="img-fluid logo d-block d-md-none ms-2 my-2" src="assets/images/logo-1.png">
                             <ul class="nav d-none d-md-flex">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">
+                                    <a class="nav-link" href="#home">
                                         <p>Home</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">
+                                    <a class="nav-link" href="#about">
                                         <p class="text-uppercase">About Us</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">
+                                    <a class="nav-link" href="#notice">
                                         <p class="text-uppercase">Notice</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">
+                                    <a class="nav-link" href="#courses">
                                         <p class="text-uppercase">Courses</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">
+                                    <a class="nav-link" href="#faq">
                                         <p class="text-uppercase">FAQs</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">
+                                    <a class="nav-link" href="#testimonial">
                                         <p class="text-uppercase">Testimonial</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">
+                                    <a class="nav-link" href="#blog">
                                         <p class="text-uppercase">Blog</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#" class="button ms-4">
-                                        <button class="btn mr-button button-2" data-toggle="modal"
-                                            data-target="#myModal" style="padding: 50px 90px; border-radius: 15px 0px 0px 15px; font-size: 18px;">GET FREE QUOTE</button>
+                                        <button class="btn mr-button button-2" data-bs-toggle="modal"
+                                            data-bs-target="#myModal" style="padding: 50px 90px; border-radius: 15px 0px 0px 15px; font-size: 18px;">GET FREE QUOTE <i class="fa fa-arrow-circle-o-right" aria-hidden="true" style="color: white;"></i></button>
                                     
                                     </a>
                                 </li>
                             </ul>
-                            <a href="#" class="ms-4 d-block d-md-none">
-                                <button class="btn mr-button button-2" data-toggle="modal" data-target="#myModal">Admission
-                                    Now</button>
+                            <a href="#" class="ms-4 me-2 d-block d-md-none">
+                                <button class="btn mr-button button-2" data-bs-toggle="modal" data-bs-target="#myModal">Admission
+                                    Now <i class="fa fa-arrow-circle-o-right" style="color: white;" aria-hidden="true"></i></button>
                             </a>
                         </div>
                     </div>
@@ -152,10 +154,10 @@
                                 industry. Lorem Ipsum has been the industry's standard.</p>
   
   
-                                <button class="btn mr-button button-1 text-uppercase mb-3 mx-1 mb-md-0">Call us</button>
+                                <a href="tel:+919051044044" class="btn mr-button button-1 text-uppercase mb-3 mx-1 mb-md-0">Call us</a>
     
                                 <button class="btn mr-button button-2 text-uppercase mr-button mb-3 mx-1 mb-md-0"
-                                    data-toggle="modal" data-target="#myModal">Enquiry Now</button>
+                                 data-bs-toggle="modal" data-bs-target="#myModal" >Enquiry Now</button>
                         </div>
                     </div>
                     <div class="col-md-6 d-flex justify-content-center align-items-center">
@@ -164,7 +166,7 @@
                 </div>
                 
                 <!-- Notice -->
-                <section>
+                <section id="notice">
                     <div class="container-fluid notice">
                         <div class="container">
                             <div class="row">
@@ -203,9 +205,8 @@
         </div>
     </section>
   
-  
     <!-- About Us -->
-    <section>
+    <section id="about">
         <div class="container-fluid mr-section about">
             <div class="container">
                 <div class="row">
@@ -225,7 +226,9 @@
                                     <img class="img-fluid h-100" src="assets/images/img-10.png">
                                 </div>
                                 <div class="col-4">
-                                    <img class="img-fluid h-100" src="assets/images/call.png">
+                                    <a href="tel:+919051044044">
+                                        <img class="img-fluid h-100" src="assets/images/call.png">
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -282,7 +285,7 @@
     </section>
   
     <!-- Director -->
-    <section>
+    <section id="director">
         <div class="container-fluid mr-section director">
             <div class="container">
                 <h3 class="title-2 d-block d-md-none mb-4 mb-md-0">DIRECTOR DESK</h3>
@@ -310,7 +313,7 @@
     </section>
   
     <!-- Our Courses -->
-    <section>
+    <section id="courses">
         <div class="container-fluid mr-section course">
             <h3 class="title-2 text-center mb-5 py-5">OUR COURSES</h3>
             <div class="container">
@@ -491,15 +494,15 @@
     </section>
   
     <!-- Contact Us -->
-    <section>
+    <section id="contact">
         <div class="container-fluid mr-section contact">
             <div class="row h-100 justify-content-center align-items-center">
                 <div class="text-center">
                     <h2 class="title text-white text-center">We  are the Most Trusted College. <br> Welcome here for better future.</h2>
                     
                     <div class="py-5">
-                        <button class="btn mr-button button-1 mx-2">CALL US</button>
-                        <button class="btn mr-button button-2 mx-2">WHATSAPP US</button>
+                        <a href="tel:+919051044044"> class="btn mr-button button-1 mx-2 mb-3">CALL US</a>
+                        <a target="_blank" href="https://api.whatsapp.com/send?phone=919051044044" class="btn mr-button button-2 mx-2">WHATSAPP US</a>
                     </div>
                 </div>
             </div>
@@ -507,11 +510,60 @@
     </section>
   
     <!-- Gallery -->
-    <section>
+    <section id="gallery">
         <div class="container-fluid mr-section gallery">
             <div class="container">
                 <h3 class="title-2 text-center mb-5">LIFE AT COLLEGE</h3>
-                <div class="row">
+                <div class="swiper gallerySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-6">
+                                <img class="img-fluid" src="assets/images/gimg-1.png">
+                            </div>
+                            <div class="col-6 d-flex flex-column justify-content-between">
+                                <img class="img-fluid" src="assets/images/gimg-2.png">
+                                <img class="img-fluid mt-4" src="assets/images/gimg-3.png">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-6">
+                                <img class="img-fluid" src="assets/images/gimg-1.png">
+                            </div>
+                            <div class="col-6 d-flex flex-column justify-content-between">
+                                <img class="img-fluid" src="assets/images/gimg-2.png">
+                                <img class="img-fluid mt-4" src="assets/images/gimg-3.png">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-6">
+                                <img class="img-fluid" src="assets/images/gimg-1.png">
+                            </div>
+                            <div class="col-6 d-flex flex-column justify-content-between">
+                                <img class="img-fluid" src="assets/images/gimg-2.png">
+                                <img class="img-fluid mt-4" src="assets/images/gimg-3.png">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-6">
+                                <img class="img-fluid" src="assets/images/gimg-1.png">
+                            </div>
+                            <div class="col-6 d-flex flex-column justify-content-between">
+                                <img class="img-fluid" src="assets/images/gimg-2.png">
+                                <img class="img-fluid mt-4" src="assets/images/gimg-3.png">
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="row d-none">
                     <div class="col-md-6">
                         <div class="row">
                             <div class="col-6">
@@ -536,14 +588,15 @@
                     </div>
                 </div>
                 <div class="text-center my-5">
-                    <button class="btn mr-button button-1">Join With Us</button>
+                    <button class="btn mr-button button-1" data-bs-toggle="modal"
+                    data-bs-target="#myModal">Join With Us</button>
                 </div>
             </div>
         </div>
     </section>
   
     <!-- Faq -->
-    <section>
+    <section id="faq">
         <div class="container mr-section faq">
             <div class="row justify-content-between">
                 <div class="col-md-6 faq_img d-flex align-items-end d-none d-md-block">
@@ -683,13 +736,14 @@
                 </div>
             </div>
             <div class="text-end my-5">
-                <button class="btn mr-button button-2">CONTACT US</button>
+                <button class="btn mr-button button-2" data-bs-toggle="modal"
+                data-bs-target="#myModal" >CONTACT US</button>
             </div>
         </div>
     </section>
   
     <!-- Advantages -->
-    <section>
+    <section id="advantages">
         <div class="container mr-section">
             <h3 class="title-2 text-center mb-5">Advantage</h3>
             <div class="row">
@@ -728,7 +782,7 @@
     </section>
   
     <!-- Testimonials -->
-    <section>
+    <section id="testimonial">
         <div class="container-fluid mr-section testimonials">
             <div class="container">
                 <h3 class="title-1 text-center mb-5">TESTIMONIALS</h3>
@@ -771,9 +825,8 @@
         </div>
     </section>
   
-  
     <!-- Our Mission and Vission -->
-    <section>
+    <section id="mission">
         <div class="container-fluid target">
             <div class="container">
                 <div class="row justify-content-between">
@@ -803,7 +856,7 @@
     </section>
   
     <!-- Blog -->
-    <section>
+    <section id="blog">
         <div class="container mr-section blog">
             <h3 class="title-1 text-center py-5">OUR BLOGS</h3>
             <div class="row">
@@ -848,7 +901,7 @@
     </section>
   
     <!-- Our Colleges -->
-    <section>
+    <section id="colleges">
         <div class="container-fluid mr-section">
             <div class="container">
                 <h3 class="title-2 text-center mb-5 text-uppercase">Our group of Colleges</h3>
@@ -883,7 +936,7 @@
     </section>
   
     <!-- Map -->
-    <section>
+    <section id="map">
         <div class="container">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.424602911826!2d88.32151441495941!3d22.563217385187613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02782b4b85236b%3A0xf930670bfb37fe43!2sAvani%20Riverside%20Mall!5e0!3m2!1sen!2sin!4v1685504198639!5m2!1sen!2sin"
@@ -893,7 +946,7 @@
     </section>
   
     <!-- Brochure -->
-    <section>
+    <section id="brochure">
         <div class="container-fluid brochure">
             <div class="row">
                 <div class="col-md-8 px-md-5 py-4 d-none d-md-block">
@@ -915,25 +968,25 @@
                     <div class="col-md-12">
                         <ul class="nav justify-content-start justify-content-md-center">
                             <li class="nav-item">
-                                <a class="nav-link text-uppercase">Home</a>
+                                <a class="nav-link text-uppercase" href="#home">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-uppercase">About Us</a>
+                                <a class="nav-link text-uppercase" href="#about">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-uppercase">Notice</a>
+                                <a class="nav-link text-uppercase" href="#notice">Notice</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-uppercase">Courses</a>
+                                <a class="nav-link text-uppercase" href="#courses">Courses</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-uppercase">FAQs</a>
+                                <a class="nav-link text-uppercase" href="#faq">FAQs</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-uppercase">Testimonial</a>
+                                <a class="nav-link text-uppercase" href="#testimonial">Testimonial</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-uppercase">Blog</a>
+                                <a class="nav-link text-uppercase" href="#blog">Blog</a>
                             </li>
                         </ul>
                     </div>
@@ -986,8 +1039,8 @@
         <div class="modal-dialog modal-md">
             <div class="modal-content">
                 <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Enquiry Now</h4>
+                <div class="modal-header" style="background-color: #8E0E0E;">
+                    <h4 class="modal-title text-white">Enquire Now</h4>
                 </div>
   
                 <!-- Modal body -->
@@ -1034,17 +1087,17 @@
   
                 <!-- Modal footer -->
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
   
             </div>
         </div>
     </div>
 
-    <!-- <div class="d-none d-md-block">
+    <div class="d-none d-md-block">
         <a target="_blank" href="https://api.whatsapp.com/send?phone=+919051044044" class="whatsapp-mobile-button"><i
                 	class="fab fa-whatsapp"></i></a>
-        <a href="#" class="enquiry-button" data-toggle="modal" data-target="#myModal"><i class="fa fa-question"></i></a>
+        <a href="#" class="enquiry-button" data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-question"></i></a>
     </div>
     
     <nav class="mobile-footer navbar navbar-expand fixed-bottom d-flex d-md-none justify-content-center p-0" style="background-color: white !important;">
@@ -1053,17 +1106,61 @@
         </a>
                 	
         <a target="_blank" href="tel:+919051044044" class="w-50">
-            <button class="btn w-100" style="font-weight: 500; height: 50px; background-color: rgba(90, 215, 232, 0.7);">CALL NOW</button>
+            <button class="btn w-100" style="font-weight: 500; height: 50px; background-color: #8E0E0E; color: white;">CALL NOW</button>
         </a>
 
-        <button data-toggle="modal" data-target="#myModal" class="btn w-50 ms-1" style="height: 50px; background-color: rgba(90, 215, 232, 0.7);">ENQUIRE NOW</button>
-    </nav> -->
+        <button data-bs-toggle="modal" data-bs-target="#myModal" class="btn w-50 ms-1" style="height: 50px; background-color: #8E0E0E; color: white;">ENQUIRE NOW</button>
+    </nav>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-   
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".gallerySwiper", {
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                infinity: true
+            },
+            breakpoints: {
+            640: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+            },
+            768: {
+                slidesPerView: 1,
+                spaceBetween: 40,
+            },
+            1024: {
+                slidesPerView: 2,
+                spaceBetween: 50,
+            },
+        }
+        });
+
+        
+        if ($(window).width() >= 480) {
+            var lastScrollTop = 0;
+            $(window).scroll(function(event){
+                var st = $(this).scrollTop();
+                if (st > lastScrollTop){
+                    $(".top").hide()
+                } else {
+                    if($(window).scrollTop() == 0){
+                        $(".top").show()
+                    }
+                }
+                lastScrollTop = st;
+            });
+        }
+
+        
+
+    </script>
 
 </body>
 </html>
